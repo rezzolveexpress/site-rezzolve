@@ -11,8 +11,11 @@ body {
 
 /* CABEÇALHO - HEADER ===============================================================================================*/
 header {
-
   height: 30%;
+}
+
+.logo {
+  max-width: 100%;
 }
 
 .conjunto {
@@ -109,6 +112,7 @@ h6 {
   }
   .logo {
     box-sizing: 40% 40%;
+    max-width: 100%;
   }
 
   .img-responsive {
@@ -141,6 +145,7 @@ h6 {
 
   .logo {
   box-sizing: 25% 25%;
+  max-width: 100%;
   }
 
   .fotosindex {
