@@ -19,11 +19,12 @@ header {
   display: flex;
   justify-content: space-around;
   align-content: center;
+  align-items: center;
 }
 
 .menu{
   list-style: none;
-  
+
 
   display: -webkit-box;
   display: -moz-box;
@@ -33,6 +34,7 @@ header {
 
   -webkit-flex-flow: row wrap; /* Vai tornar o display em linhas e com quebras (caso houver) */
   justify-content: flex-end;; /* Vai posicionar o bloco todo à direita */
+  align-content: center;
 }
 
 .menu li {
