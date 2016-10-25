@@ -2,7 +2,18 @@
 
 
 .interface {
-  width: 100px;
-  height: 100px;
-  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background: black;
+}
+
+section {
+  background: yellow;
+}
+
+footer {
+  background: orange;
 }
