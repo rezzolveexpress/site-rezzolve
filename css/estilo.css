@@ -13,6 +13,35 @@ body {
 header {
   background: white;
 }
+
+.menu{
+  list-style: none;
+  margin-right: 5%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  /* Torna o display Flexbox */
+
+  -webkit-flex-flow: row wrap; /* Vai tornar o display em linhas e com quebras (caso houver) */
+  justify-content: flex-end;; /* Vai posicionar o bloco todo à direita */
+}
+
+.menu li {
+  font-weight: bold;
+
+}
+
+.menu a {
+
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+
+}
+
 /* CORPO - SECTION ===============================================================================================*/
 section {
   background: yellow;
