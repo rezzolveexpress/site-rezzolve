@@ -64,3 +64,82 @@ div#meuSlide {
 footer {
   background: orange;
 }
+
+h6 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+#guga {
+  padding-top: 0;
+  text-decoration: none;
+  color: white;
+}
+
+#guga:hover {
+  transition: 1s;
+  color: #0efff6;
+}
+
+/* MEDIA QUERYS =================================================================================================*/
+
+@media all and (max-width: 800px) {  /* Media Query rodando função quando encontrar larguras menores que 800px */
+  .menu {
+    justify-content: space-around;  /* Ao começar a diminuir a tela, o display passará a ter a mesma proporção */
+    width: auto;
+  }
+  .fotosindex {
+    justify-content: space-around;
+    width: auto;
+    padding: 20px;
+  }
+  .logo {
+    box-sizing: 40% 40%;
+  }
+
+  .img-responsive {
+    padding: 10px;
+  }
+
+}
+
+@media all and (max-width: 720px) { /* Media Query rodando função quando encontrar larguras menores que 600px */
+
+  /* Media Query do Menu de Navegação */
+  .menu {
+    width: auto;
+    -webkit-flex-flow: column wrap; /* Para telas menores o display irá se tornar em coluna e com quebra de linha */
+    flex-flow: column wrap;
+    padding: 0;
+
+  }
+
+  .menu a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .menu li:last-of-type a {
+    border-bottom: none;
+  }
+
+  .logo {
+  box-sizing: 25% 25%;
+  }
+
+  .fotosindex {
+    width: auto;
+    -webkit-flex-flow: column wrap; /* Para telas menores o display irá se tornar em coluna e com quebra de linha */
+    flex-flow: column wrap;
+    padding: 20px;
+  }
+
+  .img-responsive {
+    padding: 10px;
+  }
+
+}
