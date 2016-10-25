@@ -12,12 +12,12 @@ body {
 /* CABEÇALHO - HEADER ===============================================================================================*/
 header {
   background: url("../imagens/Logomarca-Final.png") no-repeat;
-  height: 400px;
+  height: 34%;
 }
 
 .menu{
   list-style: none;
-  margin-right: 5%;
+  margin-right: 10%;
 
   display: -webkit-box;
   display: -moz-box;
@@ -31,7 +31,7 @@ header {
 
 .menu li {
   font-weight: bold;
-
+  font-size: 20pt;
 }
 
 .menu a {
