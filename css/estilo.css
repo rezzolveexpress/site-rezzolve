@@ -11,8 +11,8 @@ body {
 
 /* CABEÇALHO - HEADER ===============================================================================================*/
 header {
-  background: url("../imagens/Logomarca-Final.png") no-repeat;
-  height: 300px;
+  
+  height: 30%;
 }
 
 .menu{
