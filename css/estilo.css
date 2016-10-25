@@ -1,19 +1,27 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .interface {
   width: 100%;
   height: 100%;
 }
 
+/* CABEÇALHO - HEADER ===============================================================================================*/
 header {
   background: white;
 }
-
+/* CORPO - SECTION ===============================================================================================*/
 section {
   background: yellow;
 }
 
+div#meuSlide {
+  margin: auto auto auto auto;
+}
+/* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
   background: orange;
 }
