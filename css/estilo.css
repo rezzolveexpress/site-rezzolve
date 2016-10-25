@@ -11,7 +11,7 @@ body {
 
 /* CABEÇALHO - HEADER ===============================================================================================*/
 header {
-  background: white;
+  background: url("../imagens/Logomarca-Final.png");
 }
 
 .menu{
@@ -38,8 +38,15 @@ header {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: white;
+  color: black;
+  text-transform: uppercase;
 
+}
+
+.menu a:hover {
+  color: red;
+  transition: 0.8s;
+  text-decoration: none;
 }
 
 /* CORPO - SECTION ===============================================================================================*/
