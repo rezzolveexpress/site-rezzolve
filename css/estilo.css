@@ -16,7 +16,7 @@ header {
   border-bottom: 2px solid black;
   background: url("../imagens/bg-header.jpg") no-repeat;
   background-position: center;
-  background-size: 100% auto;
+
 }
 
 .logo {
@@ -62,7 +62,7 @@ header {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: black;
+  color: blue;
   text-transform: uppercase;
 
 }
@@ -99,7 +99,8 @@ article#noticia-principal {
 }
 /* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
-
+  background: url("../imagens/bg-foot.jpg") no-repeat;
+  background-position: center;
 }
 
 h6 {
