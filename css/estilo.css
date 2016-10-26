@@ -16,6 +16,7 @@ header {
   border-bottom: 2px solid black;
   background: url("../imagens/bg-header.jpg") no-repeat;
   background-position: center;
+
 }
 
 .logo {
@@ -61,15 +62,16 @@ header {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: black;
+  color: white;
   text-transform: uppercase;
 
 }
 
 .menu a:hover {
-  color: red;
+  color: orange;
   transition: 0.8s;
   text-decoration: none;
+  text-shadow: 1px solid rgba(0, 0, 0, 0.5);
 
 }
 
