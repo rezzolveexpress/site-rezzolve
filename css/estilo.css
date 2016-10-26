@@ -16,7 +16,7 @@ header {
   border-bottom: 2px solid black;
   background: url("../imagens/bg-header.jpg") no-repeat;
   background-position: center;
-
+  background-size: cover;
 }
 
 .logo {
@@ -95,13 +95,26 @@ div#meuSlide {
 }
 
 article#noticia-principal {
+  text-align: justify;
   border-right: 1px solid rgba(0,0,0,0.3);
+}
+
+article#quadro1 {
+  text-align: justify;
+}
+article#quadro2 {
+  text-align: justify;
+}
+
+.img-responsive {
+  margin: auto auto auto auto;
 }
 /* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
-  height: 30%;
+  height: auto;
   background: url("../imagens/bg-foot.jpg") no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 h6 {
