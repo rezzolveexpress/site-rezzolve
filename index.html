@@ -23,10 +23,10 @@
         <nav>
 
             <ul class="menu">
-              <li><a href="#">Home</li></a>
-              <li><a href="#">Sobre</li></a>
-              <li><a href="#">Serviços</li></a>
-              <li><a href="#">Contato</li></a>
+              <li class="item1"><a href="#">Home</li></a>
+              <li class="item2"><a href="#">Sobre</li></a>
+              <li class="item3"><a href="#">Serviços</li></a>
+              <li class="item4"><a href="#">Contato</li></a>
             </ul>
 
         </nav>
@@ -35,7 +35,7 @@
       </header>
 
       <section>
-        <article class="Slider">
+        <article class="slider">
 
           <div id="meuSlide" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -47,20 +47,28 @@
               <a class="right carousel-control" href="#meuSlide" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
         </article>
-
-        <article class="principal">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-        <article class="quadro1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-        <article class="quadro2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
+        
+        <div class="container-fluid">
+          <div class="row">
+          <article class="col-md-6" id="noticia-principal">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt eligendi quasi asperiores veritatis expedita exercitationem excepturi doloribus modi, eveniet optio rerum in beatae, nihil earum dicta quidem. Tempore, aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, aut voluptatibus neque perspiciatis exercitationem nobis fugiat ex expedita excepturi repellat voluptatum nemo laboriosam quas eligendi eveniet nam vero in quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eius alias dolorum neque minus mollitia natus laborum. Excepturi, facilis quaerat nesciunt numquam voluptate doloremque voluptates, porro qui consectetur incidunt quas.</p>
+            <img src="http://placehold.it/600x140" alt="Imagem da Notícia Principal" class="img-responsive">
+          </article>
+          <article class="col-md-3 col-sm-6" id="quadro1">
+            <img src="http://placehold.it/300x200" alt="Image 1" class="img-responsive">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <article class="col-md-3 col-sm-6" id="quadro2">
+            <img src="http://placehold.it/300x200" alt="Image 2" class="img-responsive">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          </div>
+        </div>
       </section>
 
       <footer>
         <h6>Todos os direitos reservados</h6>
+        <h6>Desenvolvido por: <a href="http://gpdesenvolvedor.com.br" id="guga">GP Desenvolvedor - 2016</a></h6>
       </footer>
 
 

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Flamenco');
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -12,6 +13,7 @@ body {
 /* CABEÇALHO - HEADER ===============================================================================================*/
 header {
   height: 30%;
+  border-bottom: 2px solid black;
 }
 
 .logo {
@@ -23,6 +25,7 @@ header {
   justify-content: space-around;
   align-content: center;
   align-items: center;
+  -webkit-flex-flow: row wrap;
 }
 
 .menu{
@@ -41,8 +44,14 @@ header {
 }
 
 .menu li {
-  font-weight: bold;
-  font-size: 16pt;
+  font-family: 'Flamenco', cursive;
+  font-weight: bold; 
+  font-size: 14pt;
+  border-right: 1px solid rgba(0,0,0,0.15);
+}
+
+.item1 {
+  border-left: 1px solid rgba(0,0,0,0.15);
 }
 
 .menu a {
@@ -59,11 +68,12 @@ header {
   color: red;
   transition: 0.8s;
   text-decoration: none;
+
 }
 
 /* CORPO - SECTION ===============================================================================================*/
 section {
-  background: yellow;
+  border-bottom: 2px solid black;
 }
 
 div#meuSlide {
@@ -75,9 +85,17 @@ div#meuSlide {
 .slideindex {
   margin: auto auto auto auto;
 }
+
+.slider {
+  padding-bottom: 15px;
+}
+
+article#noticia-principal {
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
 /* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
-  background: orange;
+  
 }
 
 h6 {
@@ -90,7 +108,7 @@ h6 {
 #guga {
   padding-top: 0;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 #guga:hover {
@@ -100,10 +118,27 @@ h6 {
 
 /* MEDIA QUERYS =================================================================================================*/
 
+@media all and (max-width: 999px) {
+  .img-responsive {
+    margin: auto auto auto auto;
+  }
+  article#noticia-principal {
+    padding-bottom: 15px;
+    border-right: none;
+  }
+}
+
 @media all and (max-width: 800px) {  /* Media Query rodando função quando encontrar larguras menores que 800px */
   .menu {
     justify-content: space-around;  /* Ao começar a diminuir a tela, o display passará a ter a mesma proporção */
     width: auto;
+  }
+  .menu li {
+    font-size: 14pt;
+    border-right: none;
+  }
+  .item1 {
+    border-left: none;
   }
   .fotosindex {
     justify-content: space-around;
@@ -117,13 +152,21 @@ h6 {
 
   .img-responsive {
     padding: 10px;
+    margin: auto auto auto auto;
   }
 
+  article#noticia-principal {
+    padding-bottom: 10px;
+    border-right: none;
+  }
 }
 
-@media all and (max-width: 720px) { /* Media Query rodando função quando encontrar larguras menores que 600px */
+@media all and (max-width: 600px) { /* Media Query rodando função quando encontrar larguras menores que 600px */
 
   /* Media Query do Menu de Navegação */
+  nav {
+    width: 100%;
+  }
   .menu {
     width: auto;
     -webkit-flex-flow: column wrap; /* Para telas menores o display irá se tornar em coluna e com quebra de linha */
@@ -137,6 +180,14 @@ h6 {
     padding: 10px;
     border-top: 1px solid rgba(255,255,255,0.6);
     border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  .menu li {
+    font-size: 12pt;
+    border-right: none;
+  }
+
+  .item1 {
+    border-left: none;
   }
 
   .menu li:last-of-type a {
@@ -157,6 +208,11 @@ h6 {
 
   .img-responsive {
     padding: 10px;
+    margin: auto auto auto auto;
+  }
+  article#noticia-principal {
+    padding-bottom: 10px;
+    border-right: none;
   }
 
 }
