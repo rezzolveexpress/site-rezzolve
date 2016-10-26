@@ -14,6 +14,8 @@ body {
 header {
   height: 30%;
   border-bottom: 2px solid black;
+  background: url("../imagens/bg-header.jpg") no-repeat;
+  background-position: center;
 }
 
 .logo {
