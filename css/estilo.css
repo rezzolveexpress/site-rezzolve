@@ -45,7 +45,7 @@ header {
 
 .menu li {
   font-family: 'Flamenco', cursive;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 14pt;
   border-right: 1px solid rgba(0,0,0,0.15);
 }
@@ -91,11 +91,11 @@ div#meuSlide {
 }
 
 article#noticia-principal {
-  border-right: 1px solid rgba(0,0,0,0.2);
+  border-right: 1px solid rgba(0,0,0,0.3);
 }
 /* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
-  
+
 }
 
 h6 {
