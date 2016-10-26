@@ -62,13 +62,13 @@ header {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: white;
+  color: black;
   text-transform: uppercase;
 
 }
 
 .menu a:hover {
-  color: orange;
+  color: red;
   transition: 0.8s;
   text-decoration: none;
   text-shadow: 1px solid rgba(0, 0, 0, 0.5);
