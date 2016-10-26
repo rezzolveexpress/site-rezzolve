@@ -62,7 +62,7 @@ header {
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: blue;
+  color: black;
   text-transform: uppercase;
 
 }
@@ -99,6 +99,7 @@ article#noticia-principal {
 }
 /* RODAPÉ - FOOTER ===============================================================================================*/
 footer {
+  height: 30%;
   background: url("../imagens/bg-foot.jpg") no-repeat;
   background-position: center;
 }
